@@ -18,7 +18,7 @@
   margin-bottom: -1000px;
 }
 footer {
-  align:center; 
+  text-align:center; 
   margin-left: 5cm;
   margin-right: 5cm;
   margin: 20px;
@@ -80,10 +80,12 @@ h1 {
   font-weight: bold;
   font-size: 48px;
   font-family: sans-serif;
+  text-align: center;
 }
 article {
-  padding: 25px 50px;
-  margin: 25px 50px;
+  padding: 20px 85px;
+  margin: 20px 85px;
+  text-align: center;
 }
 .half {
   -moz-transform:scale(0.5);
