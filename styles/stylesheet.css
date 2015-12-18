@@ -1,3 +1,17 @@
+.offscreen {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
+
+.offscreen:focus {
+  position: static;
+  width:auto;
+  height:auto;
+}
 .container {
   overflow: hidden;
   margin-left: 5cm;
